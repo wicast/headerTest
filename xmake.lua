@@ -1,3 +1,4 @@
 target("headerTest")
-    set_kind("binary")
-    add_files("main.cpp")
+    set_kind("static")
+    add_includedirs("$(projectdir)")
+    add_files("S.cpp")

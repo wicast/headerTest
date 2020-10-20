@@ -2,11 +2,16 @@
 
 struct S
 {
-    /* data */
     uint32_t aa;
 
     void ping()
     {
-        std::cout<< aa<< ":233" <<std::endl;
+        std::cout << aa << ":23323i23jioi" << std::endl;
     }
+};
+
+class Sc
+{
+
+    void bing();
 };
